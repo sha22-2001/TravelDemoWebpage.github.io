@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #121c20;
+}
+.menu{
+    
+    width: 100%;
+    background: #121c20;
+    font-family: sans-serif;
+    position: relative;
+}
+nav{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+.middle{
+    width: 100%;
+    background: #121c20;
+}
+
+.middle img{
+    width: 100%;
+    margin-top: 10px;
+}
+.middle h1{
+    font-family: "NEON LED Light";
+    color: aliceblue;
+    margin-left: 1%;
+    font-size: 52.511px;
+}
+.middle h3{
+    font-family: "Calibri";
+    color: #DA4444;
+    margin-left: 1.5%;
+    font-size: 34.511px;
+}
+.location1{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    margin: 10%;
+    margin-top: 5%;
+}
+.location1 img{
+    width: 60%;
+    cursor: pointer;
+}
+.service{
+    margin: 2%;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: auto;
+}
+.location2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    margin: 7%;
+}
+.location2 img{
+    width: 20%;
+    margin-left: 25%;
+}
+.line{
+    color: aliceblue;
+    margin: 0%;
+    margin-top: 15%;
+}
+.logo1{
+    width: 15%;
+    margin-top: 15px;
+}
+.menu1{
+    
+    width: 100%;
+    background: #121c20;
+    font-family: sans-serif;
+    position: relative;
+    margin-top: 0%;
+}
+.location1 .loc img:hover{
+    background-color: #DA4444;
+    color: rgb(255, 255, 255);
+    transform: translatez(-10px);
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+.location1 img:hover{
+    transform: translatez(-10px);
+    transform: scale(1.2);
+}
+
+.location2 p{
+    color: aliceblue;
+    margin: 5%;
+    width: 100%;
+    font-size: 25px;
+}
+.location2 .left{
+    text-align: right;
+}
+.location2 .left2{
+    text-align: right;
+    margin-top: 110%;
+}
+
+
+
+.location2 .right p{
+    margin-top: 80%;
+    margin-left: -20%;
+}
+.location2 .right2 p{
+    margin-top: 115%;
+    width: 100%;
+    margin-left: -20%;
+    margin-bottom: 0%;
+}
+
+
+.menu nav ul li:hover{
+    transform: scale(2.1);
+}
+.menu1 nav ul li:hover{
+    transform: scale(1.1);
+}
